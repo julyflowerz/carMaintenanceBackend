@@ -1,0 +1,7 @@
+CREATE TABLE Cars (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Make NVARCHAR(50),
+    Model NVARCHAR(50),
+    Year INT,
+    VIN NVARCHAR(50)
+);

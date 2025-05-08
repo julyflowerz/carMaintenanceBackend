@@ -1,0 +1,4 @@
+CREATE TABLE ServiceTypes (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100)
+);
